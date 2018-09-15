@@ -1,0 +1,30 @@
+{
+	"name": "wait-for-papa-parse",
+	"version": "1.0.0",
+	"description": "Waits for papaparse to finish parsing before returning data",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --reporter spec",
+		"cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/spwisner/wait-for-papa-parse.git"
+	},
+	"author": "“Steve <“steve@stevewisner.com”> (www.stevewisner.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/spwisner/wait-for-papa-parse/issues"
+	},
+	"homepage": "https://github.com/spwisner/wait-for-papa-parse#readme",
+	"dependencies": {
+		"ajv": "^6.5.3",
+		"papaparse": "^4.5.0"
+	},
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"coveralls": "^3.0.2",
+		"istanbul": "^0.4.5",
+		"mocha": "^5.2.0"
+	}
+}
