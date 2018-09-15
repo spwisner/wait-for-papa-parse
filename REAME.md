@@ -15,9 +15,11 @@ A package that handles a file upload and waits for papaparse to finish parsing b
 ```
 
 ```javascript
+import waitForPapaParse from 'wait-for-papa-parse'
+
 handleUploadImage = async (e) => {
     const file = e.target.files[0];
-    const response = await waitPapaParse(file)
+    const response = await waitForPapaParse(file)
     console.log(response) // {data: [], errors: [], meta: {}}
 }
 ```

@@ -1,6 +1,6 @@
 {
 	"name": "wait-for-papa-parse",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Waits for papaparse to finish parsing before returning data",
 	"main": "index.js",
 	"scripts": {
